@@ -1,0 +1,14 @@
+2021-08-27T13:21:59.223088 DEBUG  [main] [Bolt::Logger] Did not detect Boltdir or bolt-project.yaml at '/root/puppet-training/lab10'. This directory won't be loaded as a project.
+2021-08-27T13:21:59.223198 DEBUG  [main] [Bolt::Logger] Did not detect Boltdir or bolt-project.yaml at '/root/puppet-training'. This directory won't be loaded as a project.
+2021-08-27T13:21:59.223298 DEBUG  [main] [Bolt::Logger] Did not detect Boltdir or bolt-project.yaml at '/root'. This directory won't be loaded as a project.
+2021-08-27T13:21:59.294199 DEBUG  [main] [Bolt::Executor] Started with 100 max thread(s)
+2021-08-27T13:22:00.478741 DEBUG  [main] [Bolt::PAL] Loading modules from /opt/puppetlabs/bolt/lib/ruby/gems/2.7.0/gems/bolt-3.16.1/bolt-modules:/root/.puppetlabs/bolt/modules:/root/.puppetlabs/bolt/.modules:/opt/puppetlabs/bolt/lib/ruby/gems/2.7.0/gems/bolt-3.16.1/modules
+2021-08-27T13:22:00.479578 DEBUG  [main] [Bolt::Inventory] Tried to load inventory from /root/.puppetlabs/bolt/inventory.yaml, but the file does not exist
+2021-08-27T13:22:00.486781 DEBUG  [main] [Bolt::Inventory::Inventory] Did not find config for 192.168.99.11 in inventory
+2021-08-27T13:22:00.488843 INFO   [event-publisher] [Bolt::Outputter::Logger] Starting: command 'systemctl enable --now puppet' on 192.168.99.11
+2021-08-27T13:22:00.690309 DEBUG  [main] [Bolt::Transport::SSH] Authentication method 'gssapi-with-mic' (Kerberos) is not available.
+2021-08-27T13:22:00.693180 INFO   [exec-worker-1] [Bolt::Executor] Running command 'systemctl enable --now puppet' on ["192.168.99.11"]
+2021-08-27T13:22:00.693430 DEBUG  [exec-worker-1] [Bolt::Transport::SSH] Running command 'systemctl enable --now puppet' on 192.168.99.11
+2021-08-27T13:22:00.698403 DEBUG  [exec-worker-1] [192.168.99.11] Disabling use_agent in net-ssh: ssh-agent is not available
+2021-08-27T13:22:01.096496 INFO   [exec-worker-1] [Bolt::Executor] {"target":"192.168.99.11","action":"command","object":"systemctl enable --now puppet","status":"success","value":{"stdout":"","stderr":"Created symlink /etc/systemd/system/multi-user.target.wants/puppet.service → /usr/lib/systemd/system/puppet.service.\n","merged_output":"Created symlink /etc/systemd/system/multi-user.target.wants/puppet.service → /usr/lib/systemd/system/puppet.service.\n","exit_code":0}}
+2021-08-27T13:22:01.097461 INFO   [event-publisher] [Bolt::Outputter::Logger] Finished: command 'systemctl enable --now puppet' with 0 failures in 0.61 sec

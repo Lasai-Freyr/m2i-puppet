@@ -12,7 +12,11 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1629989864,,"wq"
+|2,0,1630067750,,"wq"
+:q
+|2,0,1630058245,,"q"
+:q!
+|2,0,1630057613,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -23,49 +27,323 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+"0	CHAR	0
+	B
+|3,0,0,0,1,0,1630057928,"B"
+"1	LINE	0
+	$app = "nginx"
+|3,0,1,1,1,0,1630057115,"$app = \"nginx\""
+"2	LINE	0
+	}
+|3,0,2,1,1,0,1630057115,"}"
+"3	LINE	0
+	  }
+|3,0,3,1,1,0,1630057114,"  }"
+"4	LINE	0
+	  notify  => Service["start $app"],
+|3,0,4,1,1,0,1630057114,"  notify  => Service[\"start $app\"],"
+"5	LINE	0
+	  content => $content,
+|3,0,5,1,1,0,1630057114,"  content => $content,"
+"6	LINE	0
+	  file { '/usr/share/nginx/html/index.html':
+|3,0,6,1,1,0,1630057114,"  file { '/usr/share/nginx/html/index.html':"
+"7	LINE	0
+	if $osfamily == 'RedHat' {
+|3,0,7,1,1,0,1630057114,"if $osfamily == 'RedHat' {"
+"8	LINE	0
+	#eventuelement file notifie le service nginx,
+|3,0,8,1,1,0,1630057114,"#eventuelement file notifie le service nginx,"
+"9	LINE	0
+	
+|3,0,9,1,1,0,1630057114,""
 ""-	CHAR	0
-	 
-|3,1,36,0,1,0,1629989856," "
+	)
+|3,1,36,0,1,0,1630067744,")"
 
 # File marks:
-'0  11  47  ~/nginx-v1.pp
-|4,48,11,47,1629989864,"~/nginx-v1.pp"
-'1  16  0  ~/nginx-v1.pp
-|4,49,16,0,1629989818,"~/nginx-v1.pp"
-'2  16  0  ~/nginx-v1.pp
-|4,50,16,0,1629989818,"~/nginx-v1.pp"
-'3  12  0  ~/puppet-training/lab5/nginx-v1.pp
-|4,51,12,0,1629989701,"~/puppet-training/lab5/nginx-v1.pp"
+'0  21  40  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,48,21,40,1630067750,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+'1  21  82  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,49,21,82,1630067732,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+'2  21  26  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,50,21,26,1630067330,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+'3  21  26  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,51,21,26,1630067330,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+'4  21  47  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,52,21,47,1630067128,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+'5  21  47  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,53,21,47,1630067128,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+'6  21  47  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,54,21,47,1630067128,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+'7  21  47  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,55,21,47,1630067128,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+'8  21  47  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,56,21,47,1630067059,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+'9  21  47  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,57,21,47,1630067059,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
 
 # Jumplist (newest first):
--'  11  47  ~/nginx-v1.pp
-|4,39,11,47,1629989864,"~/nginx-v1.pp"
--'  16  0  ~/nginx-v1.pp
-|4,39,16,0,1629989841,"~/nginx-v1.pp"
--'  16  0  ~/nginx-v1.pp
-|4,39,16,0,1629989818,"~/nginx-v1.pp"
--'  1  0  ~/nginx-v1.pp
-|4,39,1,0,1629989806,"~/nginx-v1.pp"
--'  1  0  ~/nginx-v1.pp
-|4,39,1,0,1629989806,"~/nginx-v1.pp"
--'  12  0  ~/puppet-training/lab5/nginx-v1.pp
-|4,39,12,0,1629989701,"~/puppet-training/lab5/nginx-v1.pp"
--'  12  0  ~/puppet-training/lab5/nginx-v1.pp
-|4,39,12,0,1629989701,"~/puppet-training/lab5/nginx-v1.pp"
--'  12  0  ~/puppet-training/lab5/nginx-v1.pp
-|4,39,12,0,1629989701,"~/puppet-training/lab5/nginx-v1.pp"
--'  12  0  ~/puppet-training/lab5/nginx-v1.pp
-|4,39,12,0,1629989701,"~/puppet-training/lab5/nginx-v1.pp"
--'  1  0  ~/puppet-training/lab5/nginx-v1.pp
-|4,39,1,0,1629989652,"~/puppet-training/lab5/nginx-v1.pp"
--'  1  0  ~/puppet-training/lab5/nginx-v1.pp
-|4,39,1,0,1629989652,"~/puppet-training/lab5/nginx-v1.pp"
--'  1  0  ~/puppet-training/lab5/nginx-v1.pp
-|4,39,1,0,1629989652,"~/puppet-training/lab5/nginx-v1.pp"
--'  1  0  ~/puppet-training/lab5/nginx-v1.pp
-|4,39,1,0,1629989652,"~/puppet-training/lab5/nginx-v1.pp"
+-'  21  40  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,39,21,40,1630067750,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+-'  21  82  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,39,21,82,1630067732,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+-'  21  26  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,39,21,26,1630067330,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+-'  21  47  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,39,21,47,1630067128,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+-'  21  47  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,39,21,47,1630067059,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+-'  13  27  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,39,13,27,1630067051,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+-'  13  27  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,39,13,27,1630067051,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+-'  13  27  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,39,13,27,1630067051,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+-'  13  27  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,39,13,27,1630067051,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+-'  13  27  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,39,13,27,1630067051,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+-'  13  27  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,39,13,27,1630067047,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+-'  1  0  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,39,1,0,1630066629,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+-'  1  0  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,39,1,0,1630066629,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+-'  1  0  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,39,1,0,1630066629,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+-'  1  0  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,39,1,0,1630066629,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+-'  1  0  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,39,1,0,1630066629,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+-'  1  0  /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+|4,39,1,0,1630066629,"/etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058245,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
+-'  2  33  ~/puppet-training/lab9/content.epp
+|4,39,2,33,1630058210,"~/puppet-training/lab9/content.epp"
 
 # History of marks within files (newest to oldest):
+
+> /etc/puppetlabs/code/environments/production/modules/nginx/manifests/init.pp
+	*	1630067749	0
+	"	21	40
+	^	21	83
+	.	21	40
+	+	25	0
+	+	21	26
+	+	21	40
+
+> ~/puppet-training/lab9/content.epp
+	*	1630058241	0
+	"	2	33
+	^	2	34
+	.	2	33
+	+	2	28
+	+	1	4
+	+	2	33
+
+> ~/puppet-training/lab9/nginx-v5.pp
+	*	1630058171	0
+	"	21	25
+	^	27	0
+	.	23	25
+	+	1	13
+	+	26	1
+	+	23	25
+
+> ~/puppet-training/lab9/content.pp
+	*	1630057115	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/puppet-training/lab8/nginx-v4.pp
+	*	1630056498	0
+	"	3	94
+	^	3	95
+	.	3	94
+	+	28	0
+	+	3	94
+
+> ~/puppet-training/lab7/nginx-v3.pp
+	*	1630052488	0
+	"	3	51
+	^	3	52
+	.	3	52
+	+	21	0
+	+	3	52
+
+> ~/puppet-training/lab6/nginx-v2.pp
+	*	1630049602	0
+	"	17	46
+	^	17	47
+	.	17	46
+	+	19	0
+	+	15	15
+	+	17	46
 
 > ~/nginx-v1.pp
 	*	1629989862	0

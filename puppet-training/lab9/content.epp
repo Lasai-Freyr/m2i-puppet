@@ -1,0 +1,2 @@
+<h1> Welcome to <%= $app %>-<%= $version %>.pp By by ba bababibel  on <%= $fqdn %>
+<%= $facts['os']['family'] %> <h1>
